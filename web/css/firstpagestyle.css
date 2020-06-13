@@ -1,0 +1,41 @@
+body {
+	background-image: url(../images/overlay-bg.png), url(../images/main-bg.jpg);
+	background-size: cover;
+	background-repeat: repeat, no-repeat;
+	background-position: center center;
+	background-attachment: fixed
+}
+h2{
+	color: white;
+}
+html, body {
+	height: 100%;
+}
+.effect-container{
+	position: absolute;
+	top: 20%;
+	left: 15%;
+	width: 50%;
+	height: auto;
+}
+
+.btn-start{
+	background-color: #0AAC8E;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 2px;
+	position: absolute;
+	top: 60%;
+	left: 28%;
+	width: auto;
+	height: auto;
+	display: inline-block;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 13px;
+}

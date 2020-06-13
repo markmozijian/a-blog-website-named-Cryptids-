@@ -1,0 +1,17 @@
+/*Evil styles by jonathan*/
+
+.top-comment-box{
+    border-bottom: 1px solid #778899;
+}
+.inner-comment-box{
+    border: 1px dashed #778899;
+    margin-left: 10%;
+}
+.small-button{
+    padding: 1% 2%;
+}
+@media (max-width: 500px) {
+    .small-button{
+        font-size: 10px;
+    }
+}
